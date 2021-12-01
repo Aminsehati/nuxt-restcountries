@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+
+
+/* font weight */
+.font-400{
+    font-weight: 400;
+}
+.font-600{
+    font-weight: 600;
+}
+.font-700{
+    font-weight: 700;
+}
+.font-800{
+    font-weight: 800;
+}
+.font-900{
+    font-weight: 900;
+}
+/* font Weight */

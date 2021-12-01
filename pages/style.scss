@@ -1,0 +1,54 @@
+.Home{
+    background: #fafafa;
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    &.dark-mode{
+        background: #202d36;
+    }
+    .filters_wrapper{
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .left__{
+            width: 31%;
+        }
+        .right__{
+            width: 205px;
+        }
+    }
+}
+@media screen and (max-width:1000px){
+    .Home .list-country-items{
+        column-gap: 20px;
+    }
+    .Home .filters_wrapper .left__{
+        width: 45%;
+    }
+}
+@media screen and (max-width:920px){
+    .Home .list-country-items{
+        grid-template-columns: repeat(3,minmax(0,1fr));
+    }
+}
+@media screen and (max-width:768px){
+    .Home .list-country-items{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+    .Home .filters_wrapper .left__{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .Home .filters_wrapper .right__{
+        width: 300px;
+    }
+}
+@media screen and (max-width:576px){
+    .Home .list-country-items{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+}
+// this is a commnet
